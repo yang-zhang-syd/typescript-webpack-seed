@@ -1,0 +1,16 @@
+{
+  "name": "typescript-webpack-seed",
+  "main": "index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.3.4",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
